@@ -1,11 +1,12 @@
 'use client'
 
-import removeAction from '../../actions/removeAction';
+import { removeItem } from "../../actions/removeAction"
+
 
 const RemovePage = ({ params }) => {
 
     const handleRemove = async() => {
-        await removeAction(params.id)
+        await removeItem(params.id)
     }
     return (
         <div className="flex justify-center items-center max-w-md mx-auto min-h-screen">

@@ -1,6 +1,6 @@
 'use client'
 
-import UpdateForm from "@/app/components/UpdateForm";
+import UpdateForm from '../../components/UpdateForm';
 
 
 const UpDatePage = ({params}) => {

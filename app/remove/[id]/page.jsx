@@ -1,6 +1,6 @@
 'use client'
 
-import removeAction from "@/app/actions/removeAction"
+import removeAction from '../../actions/removeAction';
 
 const RemovePage = ({ params }) => {
 

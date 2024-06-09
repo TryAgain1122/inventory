@@ -2,6 +2,7 @@
 
 import UpdateForm from "@/app/components/UpdateForm";
 
+
 const page = ({params}) => {
     console.log(params);
   return (

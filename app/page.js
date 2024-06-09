@@ -42,7 +42,7 @@ export default function Home() {
               items.map((item, i) => {
                 return (
                   <div className="grid grid-cols-5 gap-4 p-2 border border-gray-400 my-5"
-                    key={item.id}
+                    key={i.id}
                   >
                     <div>{item.itemName}</div>
                     <div>{item.price}</div>

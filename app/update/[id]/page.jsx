@@ -3,7 +3,7 @@
 import UpdateForm from "@/app/components/UpdateForm";
 
 
-const page = ({params}) => {
+const UpDatePage = ({params}) => {
     console.log(params);
   return (
     <div className="max-w-md mx-auto mt-10">
@@ -13,4 +13,4 @@ const page = ({params}) => {
   )
 }
 
-export default page;
+export default UpDatePage;
